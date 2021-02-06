@@ -14,11 +14,8 @@ def get_data(fpath):
     }
     workouts = []
     soup = make_bs4_soup(fpath)
-    print(soup)
-    print(soup.h2)
-    print(soup.head)
-    print(soup.li)
-    return data
+
+    return workouts
 
 def make_dataframe(data):
     print(data)
